@@ -7,13 +7,20 @@
     "author": "Taufik Oktama <oktamataufik@gmail.com>",
     "license": "Apache-2.0",
     "private": true,
+    "engines": {
+        "node": "^15.x",
+        "yarn": "^1.x"
+    },
     "scripts": {
         "dev": "nodemon src/index.ts",
-        "start": "node dist/index.js"
+        "start": "node dist/index.js",
+        "build": "tsc"
     },
     "dependencies": {
         "cors": "^2.8.5",
-        "express": "^4.17.1"
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "firebase-admin": "^9.6.0"
     },
     "devDependencies": {
         "@types/cors": "^2.8.10",
