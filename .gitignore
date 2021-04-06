@@ -1,0 +1,9 @@
+# directories
+.etc
+node_modules
+dist
+
+# files
+.env
+.env*
+yarn.lock
